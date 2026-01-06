@@ -1,0 +1,635 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leak Detection in Plano, TX | Plano Plumbing</title>
+    <meta name="description" content="Expert leak detection services in Plano, TX. Fast detection, 24/7 service, and licensed experts to prevent water damage in your home or business.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#3f3f46',
+                        secondary: '#3f463f',
+                        tertiary: '#46443f',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom Utilities */
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-white selection:bg-[#3f3f46] selection:text-white">
+
+    <!-- Header / Navigation -->
+    <header class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm transition-all duration-300">
+        <nav class="container mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
+            <!-- Logo -->
+            <a href="index.html" class="flex items-center gap-2 group">
+                <div class="bg-[#3f3f46] text-white p-2 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                    </svg>
+                </div>
+                <span class="text-xl font-bold tracking-tight text-[#3f3f46]">Plano Plumbing</span>
+            </a>
+
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="#features" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Features</a>
+                <a href="#benefits" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Benefits</a>
+                <a href="#about" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">About Us</a>
+                <a href="services.html" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Services</a>
+                <a href="contact.html" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button p-2 text-gray-600 hover:text-[#3f3f46] focus:outline-none transition-transform duration-300 active:scale-95">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
+        </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden absolute top-full left-0 w-full bg-white border-t border-gray-100 shadow-xl py-4 flex flex-col">
+            <a href="#features" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Features</a>
+            <a href="#benefits" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Benefits</a>
+            <a href="#about" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">About Us</a>
+            <a href="services.html" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Services</a>
+            <a href="contact.html" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Contact</a>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 md:pt-48 md:pb-32 overflow-hidden">
+        <!-- Abstract Decoration -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-gray-100 to-transparent -z-10 rounded-bl-[100px] opacity-60"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#3f3f46]/5 rounded-full blur-3xl -z-10"></div>
+        
+        <div class="container mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div class="space-y-8">
+                    <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#3f3f46]/10 text-[#3f3f46] text-sm font-semibold animate-fade-in-up">
+                        <span class="relative flex h-3 w-3">
+                          <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-[#3f463f] opacity-75"></span>
+                          <span class="relative inline-flex rounded-full h-3 w-3 bg-[#3f463f]"></span>
+                        </span>
+                        Serving Plano, TX & Surrounding Areas
+                    </div>
+                    
+                    <h1 class="text-4xl md:text-5xl lg:text-7xl font-bold tracking-tight text-gray-900 leading-tight">
+                        Precision <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#3f3f46] to-[#3f463f]">Leak Detection</span> Solutions
+                    </h1>
+                    
+                    <p class="text-xl text-gray-600 leading-relaxed font-light max-w-xl">
+                        Protect your property with Plano's most trusted experts. We combine advanced technology with licensed expertise to detect and resolve leaks before they cause major damage.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 pt-4">
+                        <a href="contact.html" class="inline-flex justify-center items-center px-8 py-4 text-base font-semibold text-white transition-all duration-300 bg-[#3f3f46] rounded-full hover:bg-[#2e2e33] hover:shadow-[0_10px_20px_rgba(63,63,70,0.3)] hover:scale-105">
+                            Schedule Service
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                            </svg>
+                        </a>
+                        <a href="services.html" class="inline-flex justify-center items-center px-8 py-4 text-base font-semibold text-[#3f3f46] transition-all duration-300 bg-white border-2 border-[#3f3f46]/20 rounded-full hover:border-[#3f3f46] hover:bg-gray-50">
+                            Our Services
+                        </a>
+                    </div>
+
+                    <div class="pt-8 flex items-center gap-6">
+                        <div class="flex -space-x-4">
+                            <img class="w-12 h-12 rounded-full border-4 border-white object-cover" src="https://images.unsplash.com/photo-1542596594-649edbc13630?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Avatar">
+                            <img class="w-12 h-12 rounded-full border-4 border-white object-cover" src="https://images.unsplash.com/photo-1542909168-82c3e7fdca5c?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Avatar">
+                            <img class="w-12 h-12 rounded-full border-4 border-white object-cover" src="https://images.unsplash.com/photo-1542909192-2f308119bcbf?ixlib=rb-4.0.3&auto=format&fit=crop&w=300&q=80" alt="Avatar">
+                        </div>
+                        <div>
+                            <div class="flex items-center text-yellow-400 text-sm">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <p class="text-sm font-medium text-gray-500">Trusted by 500+ locals</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="relative lg:-mr-12">
+                    <div class="relative rounded-2xl overflow-hidden shadow-[0_20px_50px_rgba(0,0,0,0.15)] group transition-all duration-500 hover:shadow-[0_30px_60px_rgba(0,0,0,0.2)]">
+                        <div class="absolute inset-0 bg-[#3f3f46]/10 group-hover:bg-transparent transition-colors duration-500 z-10"></div>
+                        <img src="https://images.unsplash.com/photo-1581094288338-2314dddb7ece?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Plumber inspecting pipes" class="w-full h-full object-cover transform transition-transform duration-700 group-hover:scale-105">
+                    </div>
+                    
+                    <!-- Floating Card -->
+                    <div class="absolute -bottom-8 -left-8 bg-white p-6 rounded-2xl shadow-xl flex items-center gap-4 animate-bounce duration-[3000ms] text-[#3f3f46]">
+                        <div class="p-3 bg-[#3f3f46]/10 rounded-full">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-xs font-semibold uppercase tracking-wider text-gray-400">Response Time</p>
+                            <p class="text-xl font-bold">Under 60 Mins</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-50">
+        <div class="container mx-auto px-8 md:px-16">
+            <div class="text-center max-w-3xl mx-auto mb-20">
+                <h2 class="text-sm font-bold tracking-widest text-[#3f3f46] uppercase mb-3">Why Choose Plano Plumbing</h2>
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Expert Detection, Superior Results</h3>
+                <p class="text-lg text-gray-600">We utilize cutting-edge technology and years of expertise to handle your plumbing issues efficiently and effectively.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <!-- Feature 1 -->
+                <div class="bg-white p-10 rounded-2xl shadow-lg hover:shadow-[0_10px_40px_rgba(63,63,70,0.1)] transition-all duration-300 hover:scale-105 group border border-gray-100">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-8 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-4">Fast Precision Detection</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        We don't just guess; we use advanced audio and infrared equipment to pinpoint the exact location of leaks, minimizing disruption to your property.
+                    </p>
+                </div>
+
+                <!-- Feature 2 -->
+                <div class="bg-white p-10 rounded-2xl shadow-lg hover:shadow-[0_10px_40px_rgba(63,63,70,0.1)] transition-all duration-300 hover:scale-105 group border border-gray-100">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-8 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-4">24/7 Emergency Service</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        Leaks don't wait for business hours. Our team is always on standby in Plano, ready to address urgent plumbing crises day or night.
+                    </p>
+                </div>
+
+                <!-- Feature 3 -->
+                <div class="bg-white p-10 rounded-2xl shadow-lg hover:shadow-[0_10px_40px_rgba(63,63,70,0.1)] transition-all duration-300 hover:scale-105 group border border-gray-100">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-8 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12c0 1.268-.63 2.39-1.593 3.068a3.745 3.745 0 01-1.043 3.296 3.745 3.745 0 01-3.296 1.043A3.745 3.745 0 0112 21c-1.268 0-2.39-.63-3.068-1.593a3.746 3.746 0 01-3.296-1.043 3.745 3.745 0 01-1.043-3.296A3.745 3.745 0 013 12c0-1.268.63-2.39 1.593-3.068a3.745 3.745 0 011.043-3.296 3.746 3.746 0 013.296-1.043A3.746 3.746 0 0112 3c1.268 0 2.39.63 3.068 1.593a3.746 3.746 0 013.296 1.043 3.746 3.746 0 011.043 3.296A3.745 3.745 0 0121 12z" />
+                        </svg>
+                    </div>
+                    <h4 class="text-xl font-bold text-gray-900 mb-4">Licensed & Insured Experts</h4>
+                    <p class="text-gray-600 leading-relaxed">
+                        Peace of mind comes standard. Our technicians are fully licensed, insured, and undergo rigorous training to ensure top-tier workmanship.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 bg-white">
+        <div class="container mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+                <div class="relative order-2 lg:order-1">
+                    <img src="https://images.unsplash.com/photo-1621905476438-195b02d59941?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Plumbing tools" class="rounded-2xl shadow-2xl w-full object-cover">
+                    <!-- Accent Box -->
+                    <div class="absolute -bottom-10 -right-10 w-2/3 bg-[#3f3f46] p-8 rounded-2xl shadow-xl hidden md:block">
+                        <div class="text-white">
+                            <h4 class="text-lg font-bold mb-2">Did You Know?</h4>
+                            <p class="text-sm font-light opacity-90">A small leak can waste up to 10,000 gallons of water a year. Early detection saves money and protects the environment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="order-1 lg:order-2 space-y-10">
+                    <div>
+                        <h2 class="text-sm font-bold tracking-widest text-[#3f3f46] uppercase mb-3">Core Benefits</h2>
+                        <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Protecting What Matters Most</h3>
+                    </div>
+
+                    <div class="space-y-8">
+                        <!-- Benefit 1 -->
+                        <div class="flex gap-6 group">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center transition-all duration-300 group-hover:bg-[#3f3f46] group-hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M18.364 18.364A9 9 0 005.636 5.636m12.728 12.728A9 9 0 015.636 5.636m12.728 12.728L5.636 5.636" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-900 mb-2">Prevent Water Damage</h4>
+                                <p class="text-gray-600">Avoid structural rot, mold growth, and damaged flooring by catching hidden leaks before they escalate into major disasters.</p>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 2 -->
+                        <div class="flex gap-6 group">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center transition-all duration-300 group-hover:bg-[#3f3f46] group-hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 12.75L11.25 15 15 9.75M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-900 mb-2">Expert Service Guarantee</h4>
+                                <p class="text-gray-600">We stand behind our work. Our solutions are built to last, ensuring you don't face recurring issues with your plumbing systems.</p>
+                            </div>
+                        </div>
+
+                        <!-- Benefit 3 -->
+                        <div class="flex gap-6 group">
+                            <div class="flex-shrink-0 w-12 h-12 rounded-full bg-blue-50 text-blue-600 flex items-center justify-center transition-all duration-300 group-hover:bg-[#3f3f46] group-hover:text-white">
+                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                                </svg>
+                            </div>
+                            <div>
+                                <h4 class="text-xl font-bold text-gray-900 mb-2">Availability You Can Trust</h4>
+                                <p class="text-gray-600">Plumbing emergencies don't happen on a schedule. Our "Always Available" promise means you have a partner whenever you have a problem.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="container mx-auto px-8 md:px-16">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-gray-900">Comprehensive Plumbing Services</h3>
+                <p class="text-gray-600 mt-4">Beyond leak detection, we offer complete plumbing solutions.</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-white p-8 rounded-2xl shadow-md border-l-4 border-[#3f3f46] hover:shadow-xl transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <h4 class="text-2xl font-bold text-gray-900">Water Heater Replacement</h4>
+                        <span class="p-2 bg-gray-100 rounded-lg text-[#3f3f46] group-hover:bg-[#3f3f46] group-hover:text-white transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </div>
+                    <p class="text-gray-600">Upgrade to an efficient modern system. We handle installation, maintenance, and disposal of your old unit swiftly and safely.</p>
+                </div>
+
+                <div class="bg-white p-8 rounded-2xl shadow-md border-l-4 border-[#3f3f46] hover:shadow-xl transition-all duration-300 group">
+                    <div class="flex justify-between items-start mb-4">
+                        <h4 class="text-2xl font-bold text-gray-900">Drain Cleaning</h4>
+                        <span class="p-2 bg-gray-100 rounded-lg text-[#3f3f46] group-hover:bg-[#3f3f46] group-hover:text-white transition-colors">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </span>
+                    </div>
+                    <p class="text-gray-600">Clear stubborn clogs and restore proper flow. Our advanced cleaning techniques ensure your pipes stay clear longer.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-white">
+        <div class="container mx-auto px-8 md:px-16">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-12">
+                    <h2 class="text-sm font-bold tracking-widest text-[#3f3f46] uppercase mb-3">About Plano Plumbing</h2>
+                    <h3 class="text-3xl md:text-4xl font-bold text-gray-900">Serving Texas Since 2005</h3>
+                </div>
+                
+                <div class="flex flex-col md:flex-row gap-12 items-center">
+                    <div class="md:w-1/2">
+                        <div class="relative">
+                            <img src="https://images.unsplash.com/photo-1504328345606-18bbc8c9d7d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Plumbing team" class="rounded-2xl shadow-lg relative z-10 hover:scale-105 transition-transform duration-500">
+                            <div class="absolute top-4 -right-4 w-full h-full bg-[#3f3f46]/10 rounded-2xl -z-0"></div>
+                        </div>
+                    </div>
+                    <div class="md:w-1/2 space-y-6">
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Plano Plumbing was founded with a simple yet ambitious goal: to provide the most reliable and transparent plumbing services in the state of Texas. Started as a family-owned operation in the heart of Plano, we have grown over the last two decades into a premier service provider. Our journey has been defined by a relentless commitment to quality craftsmanship and a deep understanding of local plumbing infrastructure, allowing us to diagnose issues that others miss.
+                        </p>
+                        <p class="text-lg text-gray-600 leading-relaxed">
+                            Our mission is to restore comfort and safety to your home through expert service and unwavering integrity. We believe that every homeowner deserves honest pricing, timely communication, and technical excellence. At Plano Plumbing, our core values center on respect for your property, continuous training for our technicians, and a 100% satisfaction guarantee that ensures we don't leave until the job is done right.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="py-24 bg-gray-50">
+        <div class="container mx-auto px-8 md:px-16">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl md:text-4xl font-bold text-gray-900">What Our Clients Say</h3>
+                <p class="text-gray-600 mt-4">Real stories from your neighbors in Plano.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"I had a mystery leak that drove my water bill through the roof. The team found it in under an hour using thermal imaging. Absolutely worth it!"</p>
+                    <div class="font-bold text-gray-900">Sarah Jenkins</div>
+                    <div class="text-sm text-gray-500">Homeowner, Plano</div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"We needed a commercial water heater replacement over the weekend. Plano Plumbing responded immediately. Their 24/7 service is the real deal."</p>
+                    <div class="font-bold text-gray-900">Michael Chen</div>
+                    <div class="text-sm text-gray-500">Restaurant Owner</div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"The drain cleaning service was thorough and clean. They respected my home, wore shoe covers, and left the bathroom spotless. Highly recommended."</p>
+                    <div class="font-bold text-gray-900">Emily Rodriguez</div>
+                    <div class="text-sm text-gray-500">Resident</div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-2">
+                    <div class="flex text-yellow-400 mb-4">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-gray-600 mb-6 italic">"Licensed experts who actually explain what they are doing. They helped prevent water damage from a pipe I didn't even know was leaking."</p>
+                    <div class="font-bold text-gray-900">Robert Vance</div>
+                    <div class="text-sm text-gray-500">Property Manager</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-white">
+        <div class="container mx-auto px-8 md:px-16 max-w-4xl">
+            <div class="text-center mb-16">
+                <h3 class="text-3xl font-bold text-gray-900">Frequently Asked Questions</h3>
+                <p class="text-gray-600 mt-4">Common questions about leak detection and our services.</p>
+            </div>
+
+            <div class="space-y-4">
+                <!-- FAQ Item 1 -->
+                <div class="faq-item border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 text-left flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer">
+                        <span class="font-semibold text-gray-900">How do I know if I have a hidden water leak?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-[#3f3f46] transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-white px-6 py-4 text-gray-600 leading-relaxed border-t border-gray-100">
+                        Common signs include unexplained increases in your water bill, the sound of running water when taps are off, damp spots on floors or walls, a musty odor indicating mold, or cracks in your foundation. If you suspect a leak, it's crucial to call us immediately to prevent further damage.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 text-left flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer">
+                        <span class="font-semibold text-gray-900">Is your leak detection process destructive?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-[#3f3f46] transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-white px-6 py-4 text-gray-600 leading-relaxed border-t border-gray-100">
+                        No, we prioritize non-invasive methods. We use state-of-the-art acoustic equipment, moisture meters, and thermal imaging cameras to locate leaks behind walls or under slabs without needing to tear up your property excessively.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 text-left flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer">
+                        <span class="font-semibold text-gray-900">How quickly can you arrive in Plano?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-[#3f3f46] transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-white px-6 py-4 text-gray-600 leading-relaxed border-t border-gray-100">
+                        We are locally based in Plano and offer 24/7 service. For emergencies, we typically have a technician dispatched to your location within 60 minutes or less, ensuring rapid response to minimize water damage.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 text-left flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer">
+                        <span class="font-semibold text-gray-900">Do you offer warranties on your repairs?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-[#3f3f46] transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-white px-6 py-4 text-gray-600 leading-relaxed border-t border-gray-100">
+                        Absolutely. We stand behind our expert service. All our repairs come with a satisfaction guarantee and specific warranties on parts and labor, so you can have complete peace of mind regarding the quality of our work.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item border border-gray-200 rounded-xl overflow-hidden hover:shadow-md transition-shadow duration-300">
+                    <button class="faq-question w-full px-6 py-4 text-left flex justify-between items-center bg-gray-50 hover:bg-gray-100 transition-colors cursor-pointer">
+                        <span class="font-semibold text-gray-900">Can you helps with insurance claims?</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="faq-icon w-5 h-5 text-[#3f3f46] transition-transform duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                        </svg>
+                    </button>
+                    <div class="faq-answer hidden bg-white px-6 py-4 text-gray-600 leading-relaxed border-t border-gray-100">
+                        Yes, we provide detailed documentation, including photos and technical reports outlining the cause and location of the leak. This information is often critical for processing homeowners insurance claims related to water damage.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-32 relative bg-gray-900 flex items-center justify-center overflow-hidden">
+        <!-- Background Image with Overlay -->
+        <div class="absolute inset-0 z-0 bg-cover bg-center" style="background-image: url('https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80');"></div>
+        <div class="absolute inset-0 z-0 bg-gradient-to-r from-gray-900 via-[#3f3f46]/90 to-gray-900/90"></div>
+
+        <div class="container mx-auto px-8 md:px-16 relative z-10 text-center">
+            <h2 class="text-4xl md:text-5xl font-bold text-white mb-6">Ready to Solve Your Plumbing issues?</h2>
+            <p class="text-xl text-gray-200 mb-10 max-w-2xl mx-auto">Don't wait for water damage to get worse. Contact our licensed experts today for fast, reliable service in Plano.</p>
+            <a href="contact.html" class="inline-flex justify-center items-center px-10 py-4 text-lg font-bold text-[#3f3f46] transition-all duration-300 bg-white rounded-full hover:bg-gray-100 hover:scale-105 shadow-xl hover:shadow-2xl">
+                Get Started Now
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ml-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25L21 12m0 0l-3.75 3.75M21 12H3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 border-t border-gray-200 pt-20 pb-10">
+        <div class="container mx-auto px-8 md:px-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
+                <!-- Branding -->
+                <div class="space-y-6">
+                    <a href="index.html" class="flex items-center gap-2">
+                        <div class="bg-[#3f3f46] text-white p-2 rounded-xl">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                            </svg>
+                        </div>
+                        <span class="text-xl font-bold text-[#3f3f46]">Plano Plumbing</span>
+                    </a>
+                    <p class="text-gray-500 text-sm leading-relaxed">
+                        Professional leak detection and plumbing services in Plano, TX. Licensed, insured, and ready to serve 24/7.
+                    </p>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-[#3f3f46] transition-colors"><i class="fa-brands fa-facebook text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-[#3f3f46] transition-colors"><i class="fa-brands fa-twitter text-xl"></i></a>
+                        <a href="#" class="text-gray-400 hover:text-[#3f3f46] transition-colors"><i class="fa-brands fa-instagram text-xl"></i></a>
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-6">Company</h4>
+                    <ul class="space-y-3">
+                        <li><a href="services.html" class="text-gray-600 hover:text-[#3f3f46] transition-colors hover:translate-x-1 inline-block">Services</a></li>
+                        <li><a href="contact.html" class="text-gray-600 hover:text-[#3f3f46] transition-colors hover:translate-x-1 inline-block">Contact</a></li>
+                    </ul>
+                </div>
+
+                <!-- Legal -->
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-6">Legal</h4>
+                    <ul class="space-y-3">
+                        <li><a href="privacy.html" class="text-gray-600 hover:text-[#3f3f46] transition-colors hover:translate-x-1 inline-block">Privacy Policy</a></li>
+                        <li><a href="terms.html" class="text-gray-600 hover:text-[#3f3f46] transition-colors hover:translate-x-1 inline-block">Terms of Service</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="font-bold text-gray-900 mb-6">Contact Us</h4>
+                    <ul class="space-y-4">
+                        <li class="flex items-start gap-3 text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 mt-1 flex-shrink-0 text-[#3f3f46]">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            <span>Spring Creek<br>Plano, TX 75044<br>United States</span>
+                        </li>
+                        <li class="flex items-center gap-3 text-gray-600">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-[#3f3f46]">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75" />
+                            </svg>
+                            <a href="mailto:info@Pl.com" class="hover:text-[#3f3f46]">info@Pl.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-200 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+                <p class="text-gray-500 text-sm">© 2025 Plano Plumbing. All rights reserved.</p>
+                <p class="text-gray-400 text-xs">Designed for Excellence.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // Mobile Menu Toggle
+            const mobileMenuButton = document.querySelector('.mobile-menu-button');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+
+            // FAQ Accordion Toggle
+            const faqItems = document.querySelectorAll('.faq-item');
+            faqItems.forEach(item => {
+                const question = item.querySelector('.faq-question');
+                if (question) {
+                    question.addEventListener('click', () => {
+                        const answer = item.querySelector('.faq-answer');
+                        const icon = item.querySelector('.faq-icon');
+                        
+                        // Close all other FAQ items
+                        faqItems.forEach(otherItem => {
+                            if (otherItem !== item) {
+                                otherItem.querySelector('.faq-answer')?.classList.add('hidden');
+                                otherItem.querySelector('.faq-icon')?.classList.remove('rotate-180');
+                            }
+                        });
+                        
+                        // Toggle current item
+                        answer?.classList.toggle('hidden');
+                        icon?.classList.toggle('rotate-180');
+                    });
+                }
+            });
+
+            // Smooth Scroll for Anchor Links
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function(e) {
+                    const href = this.getAttribute('href');
+                    // Check if the link is just '#' or actually points to an ID
+                    if (href !== '#' && href.length > 1) {
+                        e.preventDefault();
+                        const target = document.querySelector(href);
+                        if (target) {
+                            target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
