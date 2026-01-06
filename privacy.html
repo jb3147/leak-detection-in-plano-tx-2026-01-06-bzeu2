@@ -48,7 +48,7 @@
     <header class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm transition-all duration-300">
         <nav class="container mx-auto px-6 lg:px-12 py-4 flex justify-between items-center">
             <!-- Logo -->
-            <a href="https://jb3147.github.io/leak-detection-in-plano-tx-2026-01-06-bzeu2" class="flex items-center gap-2 group">
+            <a href="index.html" class="flex items-center gap-2 group">
                 <div class="bg-[#3f3f46] text-white p-2 rounded-xl group-hover:scale-110 transition-transform duration-300">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
                         <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
@@ -57,11 +57,31 @@
                 <span class="text-xl font-bold tracking-tight text-[#3f3f46]">Plano Plumbing</span>
             </a>
 
-            <!-- Back Link -->
-            <a href="https://jb3147.github.io/leak-detection-in-plano-tx-2026-01-06-bzeu2" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">
-                ← Back
-            </a>
+            <!-- Desktop Menu -->
+            <div class="hidden md:flex items-center gap-8">
+                <a href="index.html#features" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Features</a>
+                <a href="index.html#benefits" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Benefits</a>
+                <a href="index.html#about" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">About Us</a>
+                <a href="services.html" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Services</a>
+                <a href="water-heater-replacement.html" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Water Heater Replacement</a>
+                <a href="contact.html" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">Contact</a>
+            </div>
+
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden mobile-menu-button p-2 text-gray-600 hover:text-[#3f3f46] focus:outline-none transition-transform duration-300 active:scale-95">
+                <i class="fa-solid fa-bars text-xl"></i>
+            </button>
         </nav>
+
+        <!-- Mobile Menu -->
+        <div class="mobile-menu hidden md:hidden absolute top-full left-0 w-full bg-white border-t border-gray-100 shadow-xl py-4 flex flex-col">
+            <a href="index.html#features" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Features</a>
+            <a href="index.html#benefits" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Benefits</a>
+            <a href="index.html#about" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">About Us</a>
+            <a href="services.html" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Services</a>
+            <a href="water-heater-replacement.html" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Water Heater Replacement</a>
+            <a href="contact.html" class="block py-3 px-6 text-gray-700 font-medium hover:bg-gray-50 hover:text-[#3f3f46]">Contact</a>
+        </div>
     </header>
 
     <!-- Main Content Section -->
