@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Services | Plano Plumbing</title>
+    <meta name="description" content="Professional plumbing services in Plano, TX. Water heater replacement, drain cleaning, leak detection, and 24/7 emergency repairs.">
+    
+    <!-- Google Fonts: Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Custom Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        primary: '#3f3f46',
+                        secondary: '#3f463f',
+                        tertiary: '#46443f',
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        .text-shadow {
+            text-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body class="font-sans text-gray-800 antialiased bg-white selection:bg-[#3f3f46] selection:text-white flex flex-col min-h-screen">
+
+    <!-- Header / Navigation -->
+    <header class="fixed w-full z-50 bg-white/95 backdrop-blur-md shadow-sm transition-all duration-300">
+        <nav class="container mx-auto px-6 lg:px-12 py-4">
+            <div class="flex items-center justify-between w-full">
+                <!-- Logo -->
+                <a href="index.html" class="flex items-center gap-2 group">
+                    <div class="bg-[#3f3f46] text-white p-2 rounded-xl group-hover:scale-110 transition-transform duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                        </svg>
+                    </div>
+                    <span class="text-xl font-bold tracking-tight text-[#3f3f46]">Plano Plumbing</span>
+                </a>
+                
+                <!-- Back Button -->
+                <a href="index.html" class="text-sm font-medium text-gray-600 hover:text-[#3f3f46] transition-colors">
+                    <i class="fa-solid fa-arrow-left mr-1"></i> Back
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-12 md:pt-40 md:pb-20 overflow-hidden">
+        <!-- Abstract Decoration -->
+        <div class="absolute top-0 right-0 w-1/2 h-full bg-gradient-to-bl from-gray-100 to-transparent -z-10 rounded-bl-[100px] opacity-60"></div>
+        <div class="absolute bottom-0 left-0 w-96 h-96 bg-[#3f3f46]/5 rounded-full blur-3xl -z-10"></div>
+
+        <div class="container mx-auto px-6 lg:px-12 text-center">
+            <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight text-gray-900 mb-6">
+                Our <span class="text-transparent bg-clip-text bg-gradient-to-r from-[#3f3f46] to-[#3f463f]">Services</span>
+            </h1>
+            <p class="text-xl text-gray-600 font-light max-w-2xl mx-auto leading-relaxed">
+                Comprehensive plumbing solutions tailored to your home's needs. From emergency repairs to routine maintenance, we handle it all with precision.
+            </p>
+        </div>
+    </section>
+
+    <!-- Services Grid -->
+    <section class="py-16 md:py-24 bg-gray-50 flex-grow">
+        <div class="container mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Service 1: Leak Detection (Core) -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(63,63,70,0.15)] hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#3f3f46] transition-colors">Leak Detection</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        Using advanced acoustic and thermal technology, we pinpoint hidden leaks behind walls and under foundation slabs without destructive digging.
+                    </p>
+                </div>
+
+                <!-- Service 2: Water Heater Replacement (Requested) -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(63,63,70,0.15)] hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1.001A3.75 3.75 0 0012 18z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#3f3f46] transition-colors">Water Heater Replacement</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        Upgrade your comfort with professional installation of traditional tank or modern tankless water heater systems. We ensure code compliance and optimal efficiency.
+                    </p>
+                </div>
+
+                <!-- Service 3: Drain Cleaning (Requested) -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(63,63,70,0.15)] hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#3f3f46] transition-colors">Drain Cleaning</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        Professional hydro-jetting and snake services to clear stubborn blockages. We restore proper flow to kitchen sinks, bathroom drains, and sewer lines.
+                    </p>
+                </div>
+
+                <!-- Service 4: Pipe Repair -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(63,63,70,0.15)] hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M11.42 15.17L17.25 21A2.652 2.652 0 0021 17.25l-5.877-5.877M11.42 15.17l2.496-3.03c.317-.384.74-.626 1.208-.766M11.42 15.17l-4.655 5.653a2.548 2.548 0 11-3.586-3.586l6.837-5.63m5.108-.233c.55-.164 1.163-.188 1.703-.127 1.5.168 2.37.947 2.37 1.842 0 .644-.45 1.173-1.037 1.455h.001M12.446 11.246a4.502 4.502 0 011.854-1.854M8.04 8.62a4.502 4.502 0 011.853-1.853M4.218 6.942a4.502 4.502 0 011.853-1.853L10.74 3.72c.45-.45 1.41-.39 2.45.65 1.04 1.04 1.1 2 .65 2.45l-3.232 3.232c-.45.45-1.41.39-2.45-.65-1.04-1.04-1.1-2-.65-2.45z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#3f3f46] transition-colors">Pipe Repair</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        From pinhole leaks to burst pipes, our experts repair damaged water lines quickly to prevent structural damage and mold growth.
+                    </p>
+                </div>
+
+                <!-- Service 5: Sewer Line Inspection -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(63,63,70,0.15)] hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-[#3f3f46]/5 rounded-xl flex items-center justify-center mb-6 group-hover:bg-[#3f3f46] transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-[#3f3f46] group-hover:text-white transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3 group-hover:text-[#3f3f46] transition-colors">Sewer Inspection</h3>
+                    <p class="text-gray-600 leading-relaxed text-sm">
+                        State-of-the-art video camera inspections for sewer lines. We identify roots, breaks, and bellies to determine the most effective repair strategy.
+                    </p>
+                </div>
+
+                <!-- Service 6: 24/7 Emergency -->
+                <div class="bg-[#3f3f46] p-8 rounded-2xl shadow-lg border border-[#3f3f46] group transition-all duration-300 hover:shadow-[0_20px_40px_rgba(63,63,70,0.3)] hover:-translate-y-1">
+                    <div class="w-14 h-14 bg-white/10 rounded-xl flex items-center justify-center mb-6 group-hover:bg-white transition-colors duration-300">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 h-7 text-white group-hover:text-[#3f3f46] transition-colors duration-300">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-white mb-3">Emergency Plumbing</h3>
+                    <p class="text-gray-300 leading-relaxed text-sm">
+                        Plumbing disasters don't wait for business hours. Our on-call team is ready 24/7 to tackle urgent issues and protect your property.
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="py-20 bg-white relative overflow-hidden">
+        <div class="container mx-auto px-6 lg:px-12 relative z-10 text-center">
+            <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6">Need a Service Not Listed?</h2>
+            <p class="text-xl text-gray-600 mb-10 max-w-2xl mx-auto">
+                Our licensed experts handle a wide range of custom plumbing solutions. Contact us today to discuss your specific needs.
+            </p>
+            <a href="contact.html" class="inline-flex justify-center items-center px-10 py-5 text-base font-semibold text-white transition-all duration-300 bg-[#3f3f46] rounded-full hover:bg-[#2e2e33] hover:shadow-[0_10px_20px_rgba(63,63,70,0.3)] hover:scale-105">
+                Contact Us Now
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 ml-2">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M13.5 4.5L21 12m0 0l-7.5 7.5M21 12H3" />
+                </svg>
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-[#3f3f46] text-white pt-16 pb-8">
+        <div class="container mx-auto px-6 lg:px-12">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div class="space-y-4">
+                    <div class="flex items-center gap-2">
+                        <div class="bg-white text-[#3f3f46] p-1.5 rounded-lg">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5l-9-5.25L3 7.5m18 0l-9 5.25m9-5.25v9l-9 5.25M3 7.5l9 5.25M3 7.5v9l9 5.25m0-9v9" />
+                            </svg>
+                        </div>
+                        <span class="text-xl font-bold tracking-tight">Plano Plumbing</span>
+                    </div>
+                    <p class="text-gray-400 text-sm leading-relaxed">
+                        Trusted, licensed, and insured leak detection and plumbing specialists serving Plano, TX and surrounding communities.
+                    </p>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Services</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="services.html" class="hover:text-white transition-colors">Leak Detection</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Water Heaters</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Drain Cleaning</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Pipe Repair</a></li>
+                    </ul>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Company</h4>
+                    <ul class="space-y-3 text-sm text-gray-400">
+                        <li><a href="index.html#about" class="hover:text-white transition-colors">About Us</a></li>
+                        <li><a href="services.html" class="hover:text-white transition-colors">Our Services</a></li>
+                        <li><a href="contact.html" class="hover:text-white transition-colors">Contact</a></li>
+                        <li><a href="#" class="hover:text-white transition-colors">Privacy Policy</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-lg font-bold mb-6">Contact</h4>
+                    <ul class="space-y-4 text-sm text-gray-400">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot mt-1"></i>
+                            <span>Plano, TX 75023</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone"></i>
+                            <a href="tel:+15555555555" class="hover:text-white transition-colors">(555) 555-5555</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-envelope"></i>
+                            <a href="mailto:info@planoplumbing.com" class="hover:text-white transition-colors">info@planoplumbing.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-gray-700 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
+                <p>&copy; 2023 Plano Plumbing. All rights reserved.</p>
+                <div class="flex gap-4">
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="hover:text-white transition-colors"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
